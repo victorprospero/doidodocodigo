@@ -12,8 +12,11 @@
     font-family: gill;
     src: url("font/gill-sans-mt.ttf");
 }
-
-* {
+@font-face {
+    font-family: agency;
+    src: url("agency-fb-2.ttf");
+}
+    * {
     margin: 0;
     border: 0;
     padding: 0;
@@ -70,18 +73,18 @@ body {
     margin-bottom: -80px;
 }
 
-.logo1 {
+.notebook {
     position: absolute;
     width: 870px;
 }
 
-.logo2 {
+.wpp {
     position: absolute;
     margin-left: -55px;
     width: 55px;
 }
 
-.logo3 {
+.lembrete {
     width: 120px;
     margin: 13px;
 }
@@ -91,13 +94,13 @@ body {
     min-width: 600px;
 }
 
-.logo4 {
+.yt {
     width: 150px;
     position: absolute;
     left: 30px;
 }
 
-.logo5 {
+.chope {
     width: 150px;
     float: right;
 }
@@ -120,24 +123,40 @@ body {
 }
 
 .moeda {
-    width: 150px;
-    position: absolute;
-    left: 30px;
+    width: 120px;
+    left: 60px;
 }
 
 .espadas {
-    width: 150px;
+    position: absolute;
+    width: 120px;
 }
 
 .lampada {
-    width: 150px;
+    width: 120px;
+    float: right;
 }
 
 .txmoeda {
+    font-family: agency;
+    font-size: 12pt;
+    top:40px;
+    padding-left: 50px;
+    padding-right: 800px;
+    text-align: justify;
 }
 
-.txespada {
+.txespadas {
+    font-family: agency;
+    font-size: 12pt;
+    padding-left: 200px;
+    padding-right: 300px;
 }
 
 .txlampada {
+    font-family: agency;
+    font-size: 12pt;
+    width: 230px;
+    padding-left:;
+    padding-right: 300px;
 }
