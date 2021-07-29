@@ -1,0 +1,125 @@
+@font-face{
+	font-family:cooperPlate;
+	src: url("font/Copperplate Gothic Bold Regular.ttf");
+}
+@font-face{
+	font-family:berlin;
+	src: url("font/Berlin Sans FB Bold.ttf");
+}
+@font-face{
+	font-family:gill;
+	src: url("font/gill-sans-mt.ttf");
+}
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+body{
+	text-align:center;
+}
+.bordaAzul {
+	border: solid 1px blue;
+}
+
+.fontCooper {
+	font-family:cooperPlate;
+}
+
+.berlin{
+	font-family:berlin;
+	font-size:13pt;
+	padding-left:20px;
+}
+
+.cooper{
+	font-size:18pt;
+	position:absolute ;
+	top: 18px;
+	padding-left:350px;
+	padding-right:20px;
+	text-align:justify;
+}
+.color{
+	font-size:20pt;
+	color:rgba(15, 175, 67);
+}
+.botao{
+	background-color:rgba(15, 175, 67);
+	color:#ffffff;
+	font-family:cooperPlate;
+	font-size:14pt;
+	padding-left:50px;
+	padding-right:5px;
+	width:330px;
+	margin:20px;
+	border:solid 6px rgba(15, 175, 67);
+	border-style:outset;
+}
+.logo {
+    width:100%;
+    height:500px;
+	margin-bottom:-80px;
+}
+.logo1{
+	position:absolute;
+	width: 870px;
+}
+.logo2{
+	position:absolute;
+	margin-left:-55px;
+	width:55px;
+}
+.logo3{
+	width:120px;
+	margin:13px;
+}
+.campo1{
+	background:rgba(255, 171, 54);
+	min-width:600px;
+}
+.logo4{
+	width:150px;
+	position:absolute;
+	left: 30px;
+}
+.logo5{
+	width:150px;
+	float:right;
+}
+.paragrafo{
+	font-family:cooperPlate;
+	font-size:17pt;
+	padding-left:250px;
+	padding-right:250px;
+	text-align:justify;
+}
+.paragrafo1{
+	font-family:gill;
+	font-size:19pt;
+	top:600px;
+	padding-left:200px;
+	padding-right:200px;
+	text-align:justify;
+}
+.moeda {
+	width: 150px;
+	position: absolute;
+	left: 30px;
+}
+.espadas {
+	width: 150px;
+}
+.lampada {
+	width: 150px;
+}
+.txmoeda{
+
+}
+.txespada{
+
+}
+.txlampada{
+
+}
