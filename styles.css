@@ -108,8 +108,11 @@ body {
 .paragrafo {
     font-family: cooperPlate;
     font-size: 17pt;
+    padding-top: 50px;
     padding-left: 250px;
     padding-right: 250px;
+    padding-bottom:30px;
+    margin-bottom: 10px;
     text-align: justify;
 }
 
@@ -119,44 +122,45 @@ body {
     top: 600px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom:40px;
+    margin-bottom:70px;
     text-align: justify;
 }
-
-.moeda {
-    width: 120px;
-    left: 60px;
+.cxtx {
+    font-family: agency;
+    margin:40px 20px ;
+    padding:0px;
 }
+.moeda{
+    width:100px;
 
+}
 .espadas {
-    position: absolute;
-    width: 120px;
-}
+    width: 100px;
 
+}
 .lampada {
-    width: 120px;
-    float: right;
-}
+    width: 100px;
 
-.txmoeda {
-    font-family: agency;
-    font-size: 12pt;
-    top:40px;
-    padding-left: 50px;
-    padding-right: 800px;
-    text-align: justify;
 }
-
-.txespadas {
+.cx {
     font-family: agency;
-    font-size: 12pt;
-    padding-left: 200px;
-    padding-right: 300px;
+    display: inline-block;
+    width: 25%;
+    min-width: 170px;
+    padding: 0 20px;
+    margin: 0;
+    background-image: url("img/barra_vertical.png");
+    background-repeat:no-repeat;
+    background-position-y:80px;
 }
-
-.txlampada {
+.c {
     font-family: agency;
-    font-size: 12pt;
-    width: 230px;
-    padding-left:;
-    padding-right: 300px;
+    display: inline-block;
+    width: 25%;
+    min-width: 170px;
+    padding: 0 20px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
 }
